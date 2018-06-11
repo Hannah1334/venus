@@ -1,0 +1,446 @@
+<style>
+
+body{
+background-color:#1e1e21;
+}
+
+body{
+background-color:#1e1e21;
+}
+
+::-webkit-scrollbar {width: 3px; height: 3px;}
+::-webkit-scrollbar-track {background: none;}
+::-webkit-scrollbar-thumb {background: #333333;}
+
+#line1{
+position:absolute;
+background-color:#000000;
+width:2px;
+height:100%;
+left:10%;
+top:0%;
+}
+
+#line2{
+position:absolute;
+background-color:#000000;
+width:2px;
+height:100%;
+left:48.7%;
+top:0%;
+}
+
+#line3{
+position:absolute;
+background-color:#000000;
+width:2px;
+height:100%;
+left:90%;
+top:0%;
+}
+
+#giffy1 {
+position:absolute;
+width:15%;
+height:30%;
+left:5%;
+top:10%;
+border:2px solid #000000;
+background-image: url('http://img-fotki.yandex.ru/get/98645/361085784.50f/0_191ca5_edf8b437_orig.gif') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:cover;
+}
+
+#giffy2 {
+position:absolute;
+width:15%;
+height:30%;
+left:80%;
+top:60%;
+border:2px solid #000000;
+background-image: url('https://68.media.tumblr.com/e0f380a0c67e84fe0d58e8a393d74af9/tumblr_o4sv7tVCkF1u5zggjo1_500.gif') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:cover;
+}
+
+#box {
+position:absolute;
+width:50%;
+height:70%;
+left:25%;
+top:15%;
+border:2px solid #000000;
+background-image: url('https://media.giphy.com/media/3owyoSQ6Dpoqvti50c/giphy.gif') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:contain;
+}
+
+#content {
+position:absolute;
+overflow:auto;
+width:50%;
+height:70%;
+left:25%;
+top:15%;
+font-family:Bilbo;
+color:#ffffff;
+font-size:100%;
+border:2px solid #000000;
+background-color:rgba(0, 0, 0, 0.9);
+}
+
+#banner1 {
+position:absolute;
+border:2px solid #1e1e21;
+width:90%;
+height:25%;
+top:4%;
+left:5%;
+background-image: url('https://i.imgur.com/DG4AKEE.jpg') !important; 
+background-repeat:no-repeat !important; 
+background-position:center-top !important; 
+background-size:cover;
+}
+
+#borderbox1 {
+position:absolute;
+width:90%;
+height:10%;
+top:24%;
+left:5%;
+background-image: url('https://i.imgur.com/K2YNTQO.png') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:contain;
+}
+
+#tabbox1 {
+position:absolute;
+background-color:#666666;
+border:2px solid #1e1e21;
+width:3%;
+height:16.5%;
+top:78%;
+left:5%;
+}
+
+#tabbox2 {
+position:absolute;
+background-color:#666666;
+border:2px solid #1e1e21;
+width:3%;
+height:16.5%;
+top:78%;
+left:10.4%;
+}
+
+#tabbox3 {
+position:absolute;
+background-color:#666666;
+border:2px solid #1e1e21;
+width:3%;
+height:16.5%;
+top:78%;
+left:15.6%;
+}
+
+#tabbox4 {
+position:absolute;
+background-color:#666666;
+border:2px solid #1e1e21;
+width:3%;
+height:16.5%;
+top:78%;
+left:20.9%;
+}
+
+#tabbox5 {
+position:absolute;
+background-color:#666666;
+border:2px solid #1e1e21;
+width:3%;
+height:16.5%;
+top:78%;
+left:26.5%;
+}
+
+#tabbox6 {
+position:absolute;
+background-color:#666666;
+border:2px solid #1e1e21;
+width:3%;
+height:16.5%;
+top:78%;
+left:32.05%;
+}
+
+#picbox1 {
+position:absolute;
+border:2px solid #1e1e21;
+width:30%;
+height:50%;
+top:30%;
+left:5%;
+background-image: url('https://i.imgur.com/lE31cR2.png') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important; 
+background-size:cover;
+}
+
+#textbox1 {
+position:absolute;
+padding:1%;
+overflow:auto;
+width:55.2%;
+height:57%;
+top:35%;
+left:38%;
+color:#ffffff;
+font-family:Bilbo;
+font-size:100%;
+}
+
+#title1 {
+position:absolute;
+width:100%;
+height:100%;
+top:0%;
+left:0%;
+background-color:rgba(0, 0, 0, 0.3);
+font-family:Bilbo;
+font-size:250%;
+text-align:center;
+line-height:3;
+}
+
+.tabs{
+display:inline-block;
+width:100%;
+height:100%;
+text-align:right;
+font-size: 100%;
+color: #ffffff;
+font-family: Bilbo;
+writing-mode: vertical-rl;
+text-orientation: sideways;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+.tabs:hover {
+color:#1e1e21;
+background-color:#ffffff;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tab1,#tab2,#tab3,#tab4,#tab5,#tab6,#tab7,#tab8,#tab9,#tab10,#tab11,#tab12,#tab13,#tab14,#tab15,#tab16,#tab17,#tab18 {
+display:none;
+}
+
+h1 {
+text-align:right;
+font-family: Amatic SC;
+font-size:180%;
+color:#666666;
+border-bottom:1px solid #ffffff;
+}
+
+b {
+font-family: Amatic SC;
+color:#666666;
+}
+
+i {
+color:#999999;
+}
+</style>
+
+<style type="text/css">body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur817.cur), progress !important;}</style>
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Bilbo" rel="stylesheet">
+<script>function changeNavigation(id) {document.getElementById('textbox1').innerHTML=document.getElementById(id).innerHTML}</script>
+<script>function changeNavigation1(id) {document.getElementById('banner1').innerHTML=document.getElementById(id).innerHTML}</script>
+<script>function changeNavigation2(id) {document.getElementById('picbox1').innerHTML=document.getElementById(id).innerHTML}</script>
+
+<div id="line1">
+</div>
+<div id="line2">
+</div>
+<div id="line3">
+</div>
+
+<div id="giffy1">
+</div>
+<div id="giffy2">
+</div>
+
+<div id="box">
+</div>
+<div id="content">
+<div id="banner1">
+<div id="title1">
+The Matriarch
+</div>
+</div>
+<div id="tabbox1">
+<span class="tabs" onClick="changeNavigation ('tab1');changeNavigation1 ('tab2');changeNavigation2 ('tab3')">Details ...</span>
+</div>
+<div id="tabbox2">
+<span class="tabs" onClick="changeNavigation ('tab4');changeNavigation1 ('tab5');changeNavigation2 ('tab6')">Lore ...</span>
+</div>
+<div id="tabbox3">
+<span class="tabs" onClick="changeNavigation ('tab7');changeNavigation1 ('tab8');changeNavigation2 ('tab9')">History ...</span>
+</div>
+<div id="tabbox4">
+<span class="tabs" onClick="changeNavigation ('tab10');changeNavigation1 ('tab11');changeNavigation2 ('tab12')">Racials ...</span>
+</div>
+<div id="tabbox5">
+<span class="tabs" onClick="changeNavigation ('tab13');changeNavigation1 ('tab14');changeNavigation2 ('tab15')">Magic ...</span>
+</div>
+<div id="tabbox6">
+<span class="tabs" onClick="changeNavigation ('tab16');changeNavigation1 ('tab17');changeNavigation2 ('tab18')">Inventory ...</span>
+</div>
+<div id="picbox1">
+</div>
+<div id="borderbox1">
+</div>
+<div id="textbox1">
+<b>Name:</b> N/A<br>
+<b>Alias:</b> Venus<br>
+<b>Physical Age:</b> Late Twenties / Early Thirties<br>
+<b>True Age:</b> Ancient as <i>fuck</i><br>
+<b>Gender:</b> Female<br>
+<b>Species:</b> Willchild<br>
+<b>Race:</b> Celtic<br>
+<b>Practice:</b> Antimagic<br>
+<b>Occupation:</b> Knight of Crescent<br>
+<b>Clan:</b> O'Connor<br>
+<b>Position:</b> Bride of Connor, O'Connor Matriarch<br>
+<b>Height:</b> 5'8"<br>
+<b>Weight:</b> 120 lbs.
+</div>
+</div>
+
+<div id="tab1">
+<b>Appearance</b><br>
+For a woman raised and trained to fight and live like a man in a more tribalistic age, when the biggest development in technology was the pulley, Venus is undeniably a very beautiful individual. She is not dainty in any sense of the word; hard muscle tightly packs whatever little space remains under her soft pale skin, and makes itself visible with every little movement. She is average height for a female, with little to no risk of towering over her male counterparts, and most of that height comes from her long legs as well as her long torso. Broad shoulders were inherited from her Father, but her deep hourglass curves are undeniably noticeable, as well as her shapely bust and rear. While the shape of her face is ovular, sharp, and angular, her actual features are soft and feminine. A cute little nose that slightly upturns, a pair of full rosy lips, and even a pair of thin slender brows add the gentle touches needed to still give this hardened warrior a soft motherly look. There's a strange familiarity to the combination of her thick black hair and her piercing inhumanly green eyes...both traits are incredibly common among a certain family of mages. Coincidence? Not in the slightest!
+<br><br>
+<b>Personality</b><br>
+For most of her life, Venus was a smack-talking brat who often had to prove her bark was just as bad as her bite. Getting into fights thanks to a loose and disrespectful tongue wasn't uncommon for her. While she has matured out of those ways, she still retains some of her rude behavior. Venus can come off as cocky unintentionally, she's brash and very blunt, but balances this out by showing little to no emotion when she's being honest. Her constantly straight face and pushy attitude in addition to her wisdom and age make her seem like a boot camp drill sergeant. Conversations with her never last very long unless she is speaking with someone that is very dear to her heart.
+</div>
+<div id="tab2">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/HinnIYD.png"/>
+<div id="title1">
+The Willchild
+</div>
+</div>
+<div id="tab3">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/PnV9jQn.png"/>
+</div>
+
+<div id="tab4">
+During the dawn of man's evolution, when life itself was new and magic first stretched its ambient existence across the Collective, borders between realities did not exist. Beings could pass freely from one world to another, allowing for endless exploration and a vast realm full of so many possibilities. Mankind's ability to constantly adapt, combined with their capacity for passion unseen by any other race outside of their planes of existence, attracted the attention of many beings from the outside. Creatures and entities unable to exist within the worlds inhabited by man--simply because their own existences defied the laws of reality contained within the realms of man--were attracted to the show, watching without being able to interact. Among these beings, three in particular became rather attached to mankind and his developments, causing one of them to eventually figure out a way to create a host body that could contain his consciousness. He took pieces of their worlds to create his new body, and formed it to appear as close to them as he possibly could, allowing him to walk among them as one of them.
+<br><br>
+What started as a project turned into a nightmare. Not properly adjusted to being among a very ambitious people, the darker sides of humanity began to manifest in this entity--who was dubbed "Will" because his true name is not translatable into any language our minds can comprehend or access--corrupting him and turning him to a greedy being full of power-lust. He wanted to control and conquer, so he amassed himself an army. Will bred with the most powerful and "perfect" human female specimens he could get his hands on, procreating a horde of superhuman children capable of incredible strength, speed, and a foreign form of magic only he had been able to practice thus far. Isolated from all other forms of society save for their own, the Willchildren were brainwashed into taking their sire's cause. Horrible training conditions were demanded of them from too young an age, morphing them into horrific beasts of war as they grew old enough to handle themselves on the battlefield. Will's armies of his own offspring swept the realms of man and trailed a path of blood behind them, massacring for the sake of killing, overthrowing for the sake of conquering and ownership. Wherever they went, they quickly overcame any erected defenses, and made slaves of the minimal survivors.
+<br><br>
+Completely disgusted by the actions of their counterpart, the two other beings in relation with Will--known to us as "Destiny" and "Fate"--desperately searched for a way to end the suffering of the people they'd grown rather fond of despite only being able to watch from the outside. In a similar method that allowed Will to access the world enough to create a host from it, they tapped into mankind's realities to rip them apart and create barriers between worlds, separating the planes of existence into completely separate entities one could not traverse without the help of the arcane arts. Both good and bad things came from these splits, the good being that the Willchildren were taken by complete surprise, divided from each other and trapped in their separate realms, with no way to cross the divides and regroup. The downside to these actions was that by creating separations they also disrupted the natural flow of magic, cutting off some kinds from some worlds entirely. Not much time passed before the Willchildren managed to find ways through these walls and divides, and with their bypasses came a whole new revolution, except this time mankind had little to no power whatsoever to even attempt to stop them. Things were getting worse, it was time for Fate and Destiny to intervene even further.
+<br><br>
+They brought the fight to Will, making vessels for themselves as he had but working together to save humanity, not enslave it. The first thing they did in their new bodies was create a living weapon, a new race of spiritual creatures known as Will-o'-the-Wisps designed specifically to be effective tools to kill off Willchildren. The next step was to restore magical balance, so they created and planted trees to act as catalysts, tying specific magics that humans had lost back to their worlds, giving them another chance to defend themselves. A war was waged, Fate and Destiny against Will and his massive army. The battle was horrendous, and many died, but none of it was in vain. Eventually the two pro-freedom deities managed to defeat their corrupted brother and seal him away where he continues to fester in his intense anger, manipulating what remains of his children even from his restraints, and constantly planning his own escape...
+</div>
+<div id="tab5">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/K2gQ1Id.png"/>
+<div id="title1">
+The Making of Will
+</div>
+</div>
+<div id="tab6">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/REoH1pE.png"/>
+</div>
+
+<div id="tab7">
+Among the ancient Celtic tribes was a fiesty Irish woman with bright auburn hair and intense green eyes. The freckled beauty was a powerful Sorceress who caught Will's attention, and after being brought to his bed for a night she became impregnated with a Willchild; a being who would be bred and raised just to wipe her own kind from the face of reality. Completely unaware of the child's purpose at the time, upon learning that she was pregnant she was contacted by Will and agreed to give up the babe once she was weaned and capable of surviving without a parent. At first the agreement was hastily made, the young maiden wanting to be rid of the child so she could continue her life freely. Quite a few things were required of her, for example, she wasn't allowed to name the child only call it by affectionate pet-names or use a pre-decided numerical code given to her by the unborn babe's sire. After the child's birth, it was revealed to be a delicate baby girl, and immediately a bond formed between mother and daughter. She grew attached, and when the time came for her to be taken from her mother's custody, parting words were offered with tears. The daughter swore she'd come back to take care of her mother, but the Sorceress knew deep in her heart she would never see the girl again.
+<br><br>
+The daughter was subjected to intense and cruel training, living most of her life purposefully hiding her gender to keep from being taken advantage of. The Willchildren were a very patriarchal society, believing men to be higher than women, and even then female Willchildren were extremely rare. The daughter was practically a treasure, and had she not been careful about her true identity and didn't pose as a boy, she likely would have been abused and deflowered against her will. As time passed not only did she survive the extreme conditions of their cruel "training" rituals, as well as the constant competition her siblings were in for their father's affection that often ended with them killing one another, but she also proved to be extremely skilled in the ways of the arcane arts, showing a level of understanding for her siblings' special mana types that none of the others--not a single one!--seemed to possess. This boosted her high through the ranks, gaining her too much of the favor from her father that so many of her brethren desperately craved. The higher she rose, the more of their corrupt and disgusting ways she saw. Her hands were forced to slaughter the innocents of mankind, mowing them down like cattle despite the fact that she still shared their blood. It never sat right with her, and when the true wars against the Willchildren began with the creation of the Will-o'-the-Wisps and the Magic Trees, the favored daughter defected. Fearing the loss of her own life after living as such a monster without the chance for redemption, she made her escape. She did not travel alone; a small group of her siblings who agreed with her outlook joined her, and together they fled to the great Roman Empire.
+<br><br>
+Since they were hiding their true races but not their inhuman power, the humans of Rome saw their miraculous feats and believed them to be their gods in the flesh, offering them worship and sanctuary within their respective temples. Here the previously favored daughter adopted the identity of Venus, the goddess of love and beauty, but the true Venus grew jealous. She sought to come down from the heavens just to smite the Willchild, and kill her off. Before she had the chance, a Golden Griffin offered her services to the Willchild woman, agreeing to be her familiar temporarily while claiming she knew the goddesses weakness and could help the poser legitimately kill the powerful entity. Working together, the pair actually pulled it off, and the poser completely adopted the deceased deity's identity. Even though she was no true goddess, she kept the name Venus and made it part of her permanent identity. Unfortunately, sanctuary in Rome only lasted so long; pretty soon the Wisps found the Willchildren hiding there and made quick work of them, their Queen dispatching one after another and steadily making her way toward Venus, who fought and ran for as long as she could only to be bested by the artificial being. Rather than being killed, her intense need to survive seemed to interest the emotionless creature, and she was instead spared with the hopes of becoming the small Wisp Queen's teacher.
+<br><br>
+Now employed by the beings that were the same as her father, but were his enemies, Venus traveled with the Wisp for many years. The first place she went to was back to her birthplace, only to find her mother had been dead for almost a hundred years. Anguished that she had been so isolated from the rest of civilization long enough to be brainwashed into believing a short time had passed since she was taken, she let go of any regret she harbored for betraying her father, and completely embraced her new path in life. During her time there, she met a brash warrior named Connor who was able to match her in combat despite being completely human and having no racial benefits as she did. After countless scuffles the two eventually became romantically involved, and when he asked her to be his bride she couldn't refuse. The two were married, and soon after she produced for her husband two sons, who would grow up to represent the two branches of the O'Connor clan.
+<br><br>
+Venus outlived many of her own descendants, but she never once left her husband's side or betrayed him. As Connor ascended beyond humanity to the role of Conjuration's Guardian, his wife supported him and continued to offer her power and services to aid him. Once their clan split thanks to a clash of ideologies and ways of life, she made it her mission to become the guardian of her husband's dream for their family, and began a cleansing process in hopes of returning the O'Connor name to its former glory. To this very day she lives and hunts, highly revered and respected by the descendants who began from her own womb.
+</div>
+<div id="tab8">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/JyRmAd8.png"/>
+<div id="title1">
+The Making of Venus
+</div>
+</div>
+<div id="tab9">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/Gw8Y6Np.png"/>
+</div>
+
+<div id="tab10">
+<b>Aging</b><br>
+The being that fathered this strange race was a spiritual entity that fashioned a humanoid body to host his conscious, and therefore was an immortal being not affected by time. His direct first generation children inherited aging traits from both sides, born and raised like humans aging progressively through the years, but once their mental and physical age reached peak maturity they stop aging altogether. This usually happens around late twenties or early thirties.
+<br><br>
+<b>Mana's Manifestation</b><br>
+Mana is a magical almost sentient life force that exists in all beings (at least, in the worlds that Fate, Destiny, and Will took pleasure in it existed in all beings) and is the key part of casting magic spells. Without mana, magic would be impossible, but for Willchildren some forms of magic are impossible. The only kind they are able to create is something commonly known as "anti-magic" which is an arcane art that actively counters and deconstructs all other forms of magic. The difference is mostly in aesthetic since typical mana can be colored and have different interesting traits that vary from user to user, but the mana of a Willchild is either strictly black or transparent.
+<br><br>
+<b>Enhanced Strength</b><br>
+A typical Willchild with the average healthy body can reach twice the natural strength of the average human, but should they actually strength train their muscles they can reach higher levels. Currently, Venus keeps herself stagnant at about x4. It isn't only their muscles that need to be strong though, her bones are also as tough as cobalt, allowing her to add more force to her strength than she usually might be able to without strain.
+<br><br>
+<b>Enhanced Speed</b><br>
+Their bodies can be trained to reach speeds triple what a typical human is capable of, but given their physical make-up is pretty close to human on its own they can't reach much higher than that. (x3)
+<br><br>
+<b>Enhanced Perception</b><br>
+Just as her body can move faster than a human's, her mind can also process things at an accelerated rate, and her body's muscle memory is capable of kicking in and reacting at greater speeds as well. (x3)
+</div>
+<div id="tab11">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/45SBii1.png"/>
+<div id="title1">
+A Willchild's Skillset
+</div>
+</div>
+<div id="tab12">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/6YFfN0z.png"/>
+</div>
+
+<div id="tab13">
+Haha this still has to be worked out with a certain member of Ulreich Staff, so while I have the general idea of what I want I can't exactly solidify anything down until the situation is dealt with. For now enjoy an empty tab with nice pictures and I'll fill it in with a bunch of <i>amazing</i> bullshit later, don't you worry.<br><br>
+Spoiler alert: No matter what, her magic will be Antimagic in some shape or form, so get ready for another possible level of that!
+</div>
+<div id="tab14">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/1PVjfZo.png"/>
+<div id="title1">
+A Matriarch's Power
+</div>
+</div>
+<div id="tab15">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/U1BA4D6.png"/>
+</div>
+
+<div id="tab16">
+<b>Claws of the Fox</b> <i>"Crúba an Sionnach"</i><br>
+A pair of weapons one might not expect, the Claws of the Fox are actually a special pair of metallic armor-based boots. They're shaped like feminine heels, but the heel itself isn't just for show or to make the woman look taller, it's actually a slightly curved claw that has several uses. Extending from the toes of these boots there are three more claw-like blades, and the treads on the bottom are shaped to leave fox tracks where she steps instead of humanistic footprints. While mostly used for climbing, or just getting a better grip on the terrain, Venus has also trained herself how to keep perfect balance in this odd footwear, allowing her to perform a lot of hand-to-hand combat with ease as well as do things like run and cast spells. Each boot provides protective plating all the way up to her knees, also providing knee-guards but not much higher up than that. The metal plates and material the boots are made from are intentionally thin but tough; the blades themselves being carved from diamond and the armor plating being tungsten.
+<br><br>
+<b>Claws of the Badger</b> <i>"Crúba an Broc"</i><br>
+Usually kept in two smaller pistol-sized holsters, one on each hip, but instead of the butts of guns peeking over the tops of the holsters there is a thin rectangular space made by--and surrounded by--different clockwork and locking mechanisms. If she presses her hands flat through the rectangular space and adds a little downward pressure, the mechanisms will lock this strange pair of weapons onto her hands like metal gloves. These are very intricately designed claws that extend a whole foot from the ends of each finger, and cover her palms and the back of her hands in protective moveable metal bars that can also second as brass knuckles. Inserting the claw-gloves back into their holsters and applying a bit of pressure just as she does when putting them on, will unlock the mechanisms and store them safely. Much like the Claws of the Fox, these blades are made from diamond and the surrounding skeletal metal structure is made from tungsten.
+<br><br>
+<b>The Emerald Crest</b><br>
+On the proper ring finger of Venus' left hand sits a thick class-ring style golden band that holds a large round emerald. The O'Connor family sigil is carved deep into the flat surface of the large green jewel. 
+</div>
+<div id="tab17">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/4aozWB2.png"/>
+<div id="title1">
+A Matriarch's Equipment
+</div>
+</div>
+<div id="tab18">
+<img style="width:100%;height:100%;" src="https://i.imgur.com/iRe11VL.jpg"/>
+</div>
+
+<embed style="height: 0%; width: 0%;"src="Venus.mp3" autostart="true" loop="true">
